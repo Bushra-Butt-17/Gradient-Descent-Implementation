@@ -27,9 +27,17 @@ In **Multiple Linear Regression**, the goal is to model the relationship between
 
 The model assumes that the dependent variable is a linear combination of the independent variables. These coefficients (also called weights) are the values that the algorithm needs to optimize using **Gradient Descent**.
 
-### MSE Equation:
+### Gradient Descent:
 
-The equation for MSE is given as:
+Computes the gradient for linear regression 
+    Args:
+      x (ndarray): Shape (m,) Input to the model (Population of cities) 
+      y (ndarray): Shape (m,) Label (Actual profits for the cities)
+      w, b (scalar): Parameters of the model  
+    Returns
+      dj_dw (scalar): The gradient of the cost w.r.t. the parameters w
+      dj_db (scalar): The gradient of the cost w.r.t. the parameter b  
+      The equation for Gradient Descent is given as:
 
 ![Equation](equations.png)
 
