@@ -1,8 +1,6 @@
-
-
 ---
 
-# Gradient Descent for Multiple Linear Regression 🚀
+# Gradient-Descent-Implementation 🚀
 
 ## Overview 📝
 
@@ -79,7 +77,7 @@ The objective is to minimize \(J(\theta)\) using **Gradient Descent**, resulting
 To get started, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Bushra-Butt-17/Gradient-Descent-Multiple-Linear-Regression.git
+git clone https://github.com/Bushra-Butt-17/Gradient-Descent-Implementation.git
 ```
 
 ### Install Dependencies
@@ -87,7 +85,7 @@ git clone https://github.com/Bushra-Butt-17/Gradient-Descent-Multiple-Linear-Reg
 Navigate to the project directory and install the required dependencies:
 
 ```bash
-cd Gradient-Descent-Multiple-Linear-Regression
+cd Gradient-Descent-Implementation
 pip install -r requirements.txt
 ```
 
@@ -121,13 +119,13 @@ python public_tests.py
 
 The learning curve tracks the change in the **cost function** over iterations of Gradient Descent. This demonstrates how the algorithm gradually converges towards the minimum cost. A typical learning curve should show a rapid decrease initially, followed by slower convergence as the algorithm nears the optimal solution.
 
-![Learning Curve](images/learning_curve.png)
+![Learning Curve](learning_curve.png)
 
 ### 3D Plot 🌐
 
 A **3D plot** is used to visualize the cost function's surface for two regression coefficients, illustrating how **Gradient Descent** converges to the optimal parameter values. It shows the path taken by the algorithm to find the minimum point.
 
-![3D Plot](images/3d_plot.png)
+![3D Plot](3d_plot.png)
 
 ### Equations 📐
 
@@ -145,7 +143,7 @@ The following are the key equations used in the project:
 
 These equations are essential to understanding how the model is trained using **Gradient Descent**.
 
-![Equations](images/equations.png)
+![Equations](equations.png)
 
 ## Folder Structure 🗂️
 
@@ -174,4 +172,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to the **Python community** and libraries like **NumPy**, **Matplotlib**, and **Pandas** for their contributions to the scientific computing ecosystem.
 
 ---
-
