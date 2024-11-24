@@ -27,6 +27,12 @@ In **Multiple Linear Regression**, the goal is to model the relationship between
 
 The model assumes that the dependent variable is a linear combination of the independent variables. These coefficients (also called weights) are the values that the algorithm needs to optimize using **Gradient Descent**.
 
+### MSE Equation:
+
+The equation for MSE is given as:
+
+![Equation](equation.png)
+
 ## Gradient Descent 🔽
 
 **Gradient Descent** is an iterative optimization algorithm used to minimize the **cost function** (in this case, **Mean Squared Error**) by adjusting the model's parameters (the regression coefficients). It works by calculating the gradient (the partial derivatives) of the cost function with respect to each parameter. The parameters are then updated in the direction of the steepest descent (i.e., the negative gradient), which gradually reduces the cost.
@@ -95,13 +101,13 @@ python public_tests.py
 
 The learning curve tracks the change in the **cost function** over iterations of Gradient Descent. This demonstrates how the algorithm gradually converges towards the minimum cost. A typical learning curve should show a rapid decrease initially, followed by slower convergence as the algorithm nears the optimal solution.
 
-![Learning Curve](images/learning_curve.png)
+![Learning Curve](learning_curve.png)
 
 ### 3D Plot 🌐
 
 A **3D plot** is used to visualize the cost function's surface for two regression coefficients, illustrating how **Gradient Descent** converges to the optimal parameter values. It shows the path taken by the algorithm to find the minimum point.
 
-![3D Plot](images/3d_plot.png)
+![3D Plot](3d_plot.png)
 
 ### Explanations of Key Concepts 📐
 
