@@ -31,7 +31,7 @@ The model assumes that the dependent variable is a linear combination of the ind
 
 The equation for MSE is given as:
 
-![Equation](equation.png)
+![Equation](equations.png)
 
 ## Gradient Descent 🔽
 
