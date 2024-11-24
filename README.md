@@ -27,19 +27,6 @@ In **Multiple Linear Regression**, the goal is to model the relationship between
 
 The model assumes that the dependent variable is a linear combination of the independent variables. These coefficients (also called weights) are the values that the algorithm needs to optimize using **Gradient Descent**.
 
-### Gradient Descent:
-
-Computes the gradient for linear regression 
-    Args:
-      x (ndarray): Shape (m,) Input to the model (Population of cities) 
-      y (ndarray): Shape (m,) Label (Actual profits for the cities)
-      w, b (scalar): Parameters of the model  
-    Returns
-      dj_dw (scalar): The gradient of the cost w.r.t. the parameters w
-      dj_db (scalar): The gradient of the cost w.r.t. the parameter b  
-      The equation for Gradient Descent is given as:
-
-![Equation](equations.png)
 
 ## Gradient Descent 🔽
 
@@ -54,6 +41,9 @@ In each iteration of the algorithm, the coefficients are updated by a small amou
 4. **Update the coefficients** by subtracting a small proportion of the gradient from each coefficient.
 5. Repeat the steps until the model's predictions converge or the maximum number of iterations is reached.
 
+   The equation for Gradient Descent is given as:
+
+![Equation](equations.png)
 ## Cost Function (MSE) 📉
 
 The **Mean Squared Error (MSE)** is a common cost function used in regression problems. It measures the average squared difference between the predicted values and the actual values. A lower MSE indicates a better fit, meaning the model's predictions are closer to the actual values.
