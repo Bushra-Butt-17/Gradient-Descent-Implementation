@@ -1,4 +1,5 @@
 
+
 ---
 
 # Gradient-Descent-Implementation 🚀  
@@ -41,6 +42,8 @@ The model assumes a linear relationship between the features and the target. Usi
 ## Gradient Descent 🔽  
 
 **Gradient Descent** is an optimization technique that minimizes a cost function by iteratively updating the model’s parameters. The algorithm adjusts the coefficients in small steps, proportional to the negative gradient of the cost function, to move closer to the optimal solution.  
+
+![Equation](equations.png)  
 
 ### Key Steps:  
 1. **Initialize coefficients** with random values or zeros.  
@@ -148,3 +151,5 @@ This project is licensed under the MIT License. Refer to the [LICENSE](LICENSE) 
 Special thanks to the Python community and libraries like **NumPy**, **Matplotlib**, and **Pandas** for enabling efficient computations and visualizations.  
 
 ---  
+
+
